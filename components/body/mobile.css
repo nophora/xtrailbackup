@@ -1,0 +1,162 @@
+.mobile-landpage {
+  width: 98%;
+  height: 300px;
+  display: flex;
+  background-color: rgba(0, 0, 255, 0);
+
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+
+  align-items: flex-end;
+  transition: 1s;
+  animation: highs 1.2s ease-in-out;
+}
+
+.mobile-text-in {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  color: rgb(97, 97, 97);
+  flex-direction: column;
+  margin-left: 4%;
+  margin-top: 7%;
+  background-color: rgba(255, 230, 0, 0);
+}
+
+.g {
+  height: 80px;
+}
+
+.mobile-slide {
+  width: 100%;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  background-color: rgba(255, 0, 0, 0);
+}
+.mobile-info {
+  width: 100%;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 255, 0, 0);
+}
+
+.separete-mobile {
+  width: 98%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.real-mobile-s {
+  width: 99.8%;
+  height: 128px;
+  overflow-x: scroll;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgba(0, 38, 255, 0);
+}
+
+.real-mobile-s::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.real-mobile-s::-webkit-scrollbar-thumb {
+  background-color: rgba(137, 43, 226, 0);
+  height: 0px;
+}
+.scrollx-mobile {
+  width: max-content;
+  height: 100%;
+  position: absolute;
+  overflow-x: scroll;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgba(255, 0, 242, 0);
+}
+
+.scrollx-mobile::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.scrollx-mobile::-webkit-scrollbar-thumb {
+  background-color: rgba(165, 42, 42, 0);
+  height: 0px;
+}
+
+.mobile-box-slide {
+  width: 78px;
+  height: 123px;
+  flex-direction: column;
+  margin-left: 1.5%;
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 3px 3px 6px 1.5px rgba(0, 0, 0, 0.521);
+
+  background-color: rgb(255, 255, 255, 0);
+}
+.mobile-box-slidept {
+  width: 96px;
+  height: 123px;
+  flex-direction: column;
+  margin-left: 1.9%;
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 3px 3px 6px 1.5px rgba(0, 0, 0, 0.521);
+
+  background-color: rgb(255, 255, 255, 0);
+}
+.mobile-box-slide-action {
+  width: 155px;
+  height: 75px;
+  flex-direction: column;
+  margin-left: 1.5%;
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 3px 3px 6px 1.5px rgba(0, 0, 0, 0.521);
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255, 0);
+}
+.card-mobile-action {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.pg-action {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(5, 5, 5, 0.377);
+}
+.pg-action:hover {
+  background-color: rgba(49, 49, 49, 0);
+}
+
+.mobl-opn-sc {
+  width: 100%;
+  height: max-content;
+  margin-top: 4%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-color: rgba(177, 2, 2, 0);
+}
