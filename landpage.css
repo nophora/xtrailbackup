@@ -1,0 +1,120 @@
+.next-landpage{
+    background-color: rgb(247, 0, 255);
+    display: flex;
+    flex-direction: column;
+}
+html{
+    background-color: rgb(247, 0, 255);
+    width:100%;
+}
+.next-head{
+  height:100px;
+  width:100%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(251, 255, 0, 0);
+ 
+}
+.next-textt{
+    height:60px;
+    width:300px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-self: center;
+    background-color: rgba(255, 0, 0, 0);
+    
+   
+  }
+  .text-of-xtrail{
+      margin-top: -11px;
+      color: white;
+      font-size: 53px;
+      font-weight: bold;
+  }
+  .img-next-t{
+    height:40px;
+    width:40px;
+  }
+.circle{
+    height:150px;
+    width:150px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-self: center;
+    flex-direction: column;
+ }
+  
+
+.circle1{
+    height:20px;
+    width:250px; 
+   display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: -28%;
+    transform: rotate(50deg);
+    background-color: rgb(247, 0, 255);
+  
+}
+.circle2{
+    height:20px;
+    width:250px; 
+   display: flex;
+   margin-top: 35%;
+margin-left: -28%;
+   transform: rotate(-50deg);
+    justify-content: space-around;
+    align-content: center;
+    border:2px solid white;
+   
+  
+}
+.line1{
+    height:20px;
+    width:80px; 
+    border-bottom:2px solid white;
+   align-self: center;
+   margin-left: 125px;
+}
+.line2{
+    height:20px;
+    width:90px; 
+    border-top:2px solid white;
+   align-self: center;
+    margin-left: -122px;
+}
+.ball{
+    height:17px;
+    width:25px; 
+    align-self: center;
+    background-color:white;
+    animation: ball 1.5s infinite linear;
+}
+
+@keyframes ball{
+    0%{
+       
+        width:0%; 
+       
+       
+    }
+    
+    100%{
+        width:100%; 
+      
+    }
+}
+
+
+
+
+.next-body{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   flex-direction: column;
+  }
